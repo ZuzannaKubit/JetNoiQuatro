@@ -113,7 +113,7 @@ fun LoginScreen(
                     .height(48.dp)
                     .fillMaxWidth()
                     .padding(horizontal = 16.dp),
-                shape = RoundedCornerShape(10.dp),
+                shape = RoundedCornerShape(10),
                 colors = ButtonDefaults.buttonColors(Green800),
                 onClick = { onClickLogin(/*email, password*/) })
             {
@@ -129,7 +129,7 @@ fun LoginScreen(
                     .height(48.dp)
                     .fillMaxWidth()
                     .padding(horizontal = 16.dp),
-                shape = RoundedCornerShape(10.dp),
+                shape = RoundedCornerShape(10),
                 onClick = { onClickGoogle })
             {
                 val google_icon = ImageBitmap.imageResource(R.drawable.ic_google)
