@@ -49,8 +49,7 @@ import com.zuzob00l.jetnoiquatro.ui.theme.Default50
 import com.zuzob00l.jetnoiquatro.ui.theme.Green700
 import com.zuzob00l.jetnoiquatro.ui.theme.Green800
 import com.zuzob00l.jetnoiquatro.ui.theme.Neutral900
-import pl.strefakursow.noiquattro.data.samples.sampleItemDetailOne
-import pl.strefakursow.noiquattro.data.samples.sampleItemDetailScreen
+import com.zuzob00l.jetnoiquatro.data.samples.sampleItemDetailScreen
 
 @Composable
 fun ProductDetailScreen(
