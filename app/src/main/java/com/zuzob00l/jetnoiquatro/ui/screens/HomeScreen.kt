@@ -15,15 +15,12 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.icons.Icons
-import androidx.compose.material3.AlertDialogDefaults.shape
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -55,8 +52,8 @@ import com.zuzob00l.jetnoiquatro.data.ItemDetail
 import com.zuzob00l.jetnoiquatro.data.UIState
 import com.zuzob00l.jetnoiquatro.ui.theme.Green800
 import com.zuzob00l.jetnoiquatro.ui.theme.Neutral900
-import pl.strefakursow.noiquattro.data.samples.sampleHeader
-import pl.strefakursow.noiquattro.data.samples.sampleHomeData
+import com.zuzob00l.jetnoiquatro.data.samples.sampleHeader
+import com.zuzob00l.jetnoiquatro.data.samples.sampleHomeData
 
 @ExperimentalMaterial3Api
 @Composable
