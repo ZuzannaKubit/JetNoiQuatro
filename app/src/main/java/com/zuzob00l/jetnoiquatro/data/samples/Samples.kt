@@ -1,4 +1,4 @@
-package pl.strefakursow.noiquattro.data.samples
+package com.zuzob00l.jetnoiquatro.data.samples
 
 import com.zuzob00l.jetnoiquatro.R
 import com.zuzob00l.jetnoiquatro.data.ItemDetail
@@ -57,7 +57,8 @@ val sampleHeader = listOf("Pizza", "Sałatki", "Wegańskie", "Desery")
 
 val sampleHomeData = UIState.Home(
     products = sampleOrdersTwo,
-    userData = sampleUserOne)
+    userData = sampleUserOne
+)
 
 val sampleOrderHistoryData =
     UIState.OrderHistory(orderList = sampleOrdersOne)
