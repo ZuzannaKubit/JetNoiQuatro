@@ -1,5 +1,6 @@
 package com.zuzob00l.jetnoiquatro.ui.screens
 
+import android.media.Image
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -32,13 +33,16 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
 import com.zuzob00l.jetnoiquatro.R
+import com.zuzob00l.jetnoiquatro.navigation.NoiQuatroScreens
 import com.zuzob00l.jetnoiquatro.ui.theme.Green800
 
 //@Preview(showBackground = true)
 @Composable
 fun StartScreen(
-    onStartClick: () -> Unit = { })  {
+    onStartClick: () -> Unit = { })
+{
 
     val image = ImageBitmap.imageResource(id = R.drawable.start_screen_background)
 
@@ -82,7 +86,8 @@ fun StartScreen(
                 .height(48.dp),
             shape = RoundedCornerShape(20),
             colors = ButtonDefaults.buttonColors(Green800),
-            onClick = { /*TODO*/ }) {
+            onClick = {  })
+        {
 
             val iconArrow = ImageVector.vectorResource(R.drawable.ic_arrow_right)
 

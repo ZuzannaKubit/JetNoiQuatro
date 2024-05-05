@@ -47,6 +47,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
 import com.zuzob00l.jetnoiquatro.R
 import com.zuzob00l.jetnoiquatro.data.ItemDetail
 import com.zuzob00l.jetnoiquatro.data.UIState
@@ -360,16 +361,8 @@ fun HomeHeader(
         }
     }
 }
-@Preview(showBackground = true)
-@Composable
-fun HomeHeaderPreview() {
-    HomeHeader()
-}
-/*@Preview(showBackground = true)
-@Composable
-fun WelcomeTextPreview() {
-    WelcomeText(name = "Zuza")
-} */
+
+
 @ExperimentalMaterial3Api
 @Preview(showBackground = true)
 @Composable
